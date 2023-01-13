@@ -1,20 +1,26 @@
 leiviska = input ("Anna leiviskat: ")
-leiviska = float (leiviska)
+leiviska = float, (leiviska)
 naula = input ("Anna naulat: ")
-naula = float (naula)
+naula = float, (naula)
 luoti = input ("Anna luodit: ")
-luoti = float (luoti)
+luoti = float, (luoti)
 
-yksi_luoti = 13.3
-yksi_naula = 32
-yksi_leiviska = 20
+luoti = 13.3
+naula = 32*luoti
+leiviska = 20*naula
 
-print(f"yksi_luoti: {yksi_luoti}")
-print(f"yksi_naula: {yksi_naula}")
-print(f"yksi_leiviska: {yksi_leiviska}")
+yhteensa = luoti+naula+leiviska
 
-gramma = input
-kilogramma = input
+print("Massa nykymittojen mukaan", yhteensa,"grammaa")
+
+
+
+
+
+
+
+
+
 
 
 
